@@ -1,0 +1,30 @@
+{
+  "name": "slotMachine",
+  "version": "0.0.1",
+  "description": "a slotMachine base on jQuery ui widget",
+  "author": {
+    "name": "huangyi",
+    "email": "ustbhuangyi@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ustbhuangyi/slotMachine/issues"
+  },
+  "homepage": "https://github.com/ustbhuangyi/slotMachine/",
+  "keywords": [
+    "slotMachine",
+    "jQuery",
+    "jQuery ui widget"
+  ],
+  "licenses": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ustbhuangyi/slotMachine.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-uglify": "^1.0.1",
+    "gulp-concat": "^2.4.2",
+    "browser-sync": "^1.8.1"
+  }
+}
