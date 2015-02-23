@@ -1,0 +1,63 @@
+/**---------------------------------------
+* @des     重置样式，在yahoo-reset.css上修改
+* @file    reset.css
+* @author  luis
+* @date    2012-05-16 17：23
+* @update  ["luis|去掉不经常用到的reset样式|2013-06-04","author|des|date"]
+-----------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td 
+{
+	margin:0;
+	padding:0;
+}
+table 
+{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+img 
+{
+    border:0;
+}
+em,strong,th,b,i
+{
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol,ul,dl
+{
+	list-style:none;
+}
+th 
+{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 
+{
+	font-size:100%;
+	font-weight:normal;
+}
+input,textarea,select,button 
+{
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+img,input,label,button
+{
+    vertical-align: middle;
+}
+input:focus,button:focus,select:focus,textarea:focus
+{
+    outline:none;
+}
+/*hack 修复firefox下不垂直居中*/
+a::-moz-focus-inner,input::-moz-focus-inner,button::-moz-focus-inner 
+{
+    border:0;
+}
+button::-moz-focus-inner,input::-moz-focus-inner 
+{
+     padding:0;
+}

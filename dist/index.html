@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/slotmachine.css"/>
+</head>
+<body>
+<div id="slotMachine"></div>
+
+<script src="vender/jquery.js"></script>
+<script src="vender/widget.js"></script>
+<script src="js/slotmachine.js"></script>
+<script>
+
+  var $slot = $('#slotMachine').slotmachine({
+    prizeUrl: 'image/slot-prize.png',
+    bgUrl: 'image/slot-bg.jpg',
+    count: 6,
+    handle: true,
+    lights: true
+  });
+  $slot.on('slotmachinestart', function () {
+    console.log('start');
+    $slot.slotmachine('setResult', 0);
+  }).on('slotmachinerunning', function () {
+    console.log('running');
+  }).on('slotmachineend', function () {
+    console.log('end');
+  });
+</script>
+</body>
+</html>
