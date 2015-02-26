@@ -1,0 +1,94 @@
+.lottery-slotmachine
+{
+  width:661px;
+  height:427px;
+}
+
+.lottery-slotmachine .slot-icon
+{
+  background:url(/image/slot-icon.png) no-repeat;
+}
+
+.lottery-slotmachine .slot-bg
+{
+  position:relative;
+  width:661px;
+  height:427px;
+}
+
+.lottery-slotmachine .handle
+{
+  width: 105px;
+  height: 230px;
+  left: 541px;
+  top: 50px;
+  position: absolute;
+  z-index: 5;
+  background-position:-27px -23px;
+}
+
+.lottery-slotmachine .machine
+{
+  position:absolute;
+  z-index:10;
+  width: 476px;
+  height: 299px;
+  top: 25px;
+  left: 73px;
+}
+
+.lottery-slotmachine .lights
+{
+  position:absolute;
+  left:0px;
+  top:0;
+  width:476px;
+  height:299px;
+}
+
+.lottery-slotmachine .scene
+{
+  position: absolute;
+  overflow: hidden;
+  z-index:10;
+  width: 414px;
+  height: 171px;
+  left: 32px;
+  top: 54px;
+}
+
+.lottery-slotmachine .wheel
+{
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  vertical-align:top;
+  margin: 0 25px;
+  width: 88px;
+  height: 171px;
+}
+
+.lottery-slotmachine .start
+{
+  position:absolute;
+  left: 170px;
+  bottom: 5px;
+}
+
+.lottery-slotmachine .btn
+{
+  display:block;
+  width: 312px;
+  height: 86px;
+  background-position:-24px -674px;
+}
+
+.lottery-slotmachine .btn-hover
+{
+  background-position:-24px -891px;
+}
+
+.lottery-slotmachine .btn-active
+{
+  background-position:-24px -776px;
+}
