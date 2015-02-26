@@ -30,7 +30,7 @@ Clone a copy of the main slotMachine git repo:
 git clone git@github.com:ustbhuangyi/slotMachine.git
 ```
 
-install dependences:
+Install dependences:
 
 安装依赖：
 
