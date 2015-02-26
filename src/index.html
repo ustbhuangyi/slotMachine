@@ -22,12 +22,13 @@
     handle: true,
     lights: true
   });
-  $slot.on('slotmachinestart',function(){
-
+  $slot.on('slotmachinestart', function () {
+    console.log('start');
+    $slot.slotmachine('setResult', 0);
   }).on('slotmachinerunning', function () {
-
-  }).on('slotmachineend',function(){
-
+    console.log('running');
+  }).on('slotmachineend', function () {
+    console.log('end');
   });
 </script>
 </body>

@@ -1,6 +1,6 @@
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    return define('animation', ['format', 'animation'], factory);
+    return define('slotmachine', ['format', 'animation'], factory);
   } else {
     root.__slot__ = root.__slot__ || {};
     root.__slot__.animation = factory(root.__slot__.format, root.__slot__.animation);
